@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #C9A84C;
+  --color-gold-light: #E8C96B;
+  --color-dark: #0B0B0B;
+  --color-dark-2: #1A1A1A;
+  --color-dark-3: #232323;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+:root {
+  --gold: #C9A84C;
+  --gold-light: #E8C96B;
+  --dark: #0B0B0B;
+  --dark-2: #1A1A1A;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0B0B0B;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C9A84C;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E8C96B;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #C9A84C, #E8C96B, #C9A84C);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #C9A84C, #E8C96B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-dark {
+  background: #0B0B0B;
+}
+
+.section-dark-2 {
+  background: #1A1A1A;
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(201, 168, 76, 0.15);
+}
+
+.glow-gold {
+  box-shadow: 0 0 30px rgba(201, 168, 76, 0.3);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes pulse-gold {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(201, 168, 76, 0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(201, 168, 76, 0); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-gold {
+  animation: pulse-gold 2s ease-in-out infinite;
+}
+
+.brands-scroll {
+  animation: scroll-brands 25s linear infinite;
+}
+
+@keyframes scroll-brands {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.brands-scroll:hover {
+  animation-play-state: paused;
+}
+
+.overlay-dark {
+  background: linear-gradient(
+    to bottom,
+    rgba(11, 11, 11, 0.7) 0%,
+    rgba(11, 11, 11, 0.5) 50%,
+    rgba(11, 11, 11, 0.85) 100%
+  );
+}
