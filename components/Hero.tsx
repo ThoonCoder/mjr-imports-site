@@ -22,7 +22,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?q=80&w=1920&auto=format&fit=crop"
           alt="Oficina MJR Imports"
           fill
           className="object-cover object-center"

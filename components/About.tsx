@@ -37,7 +37,7 @@ export default function About() {
           >
             <div className="relative h-[450px] rounded-2xl overflow-hidden">
               <Image
-                src="https://images.pexels.com/photos/4489794/pexels-photo-4489794.jpeg?auto=compress&cs=tinysrgb&w=1260"
+                src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?q=80&w=1260&auto=format&fit=crop"
                 alt="Equipe MJR Imports"
                 fill
                 className="object-cover"

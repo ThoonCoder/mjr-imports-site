@@ -7,27 +7,27 @@ import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react";
 
 const images = [
   {
-    src: "https://images.pexels.com/photos/4489702/pexels-photo-4489702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750",
+    src: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=1260&auto=format&fit=crop",
     label: "Diagnóstico Eletrônico",
   },
   {
-    src: "https://images.pexels.com/photos/3806253/pexels-photo-3806253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750",
+    src: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=1260&auto=format&fit=crop",
     label: "Revisão de Motor",
   },
   {
-    src: "https://images.pexels.com/photos/2244746/pexels-photo-2244746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750",
+    src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1260&auto=format&fit=crop",
     label: "Pneus e Suspensão",
   },
   {
-    src: "https://images.pexels.com/photos/3807386/pexels-photo-3807386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750",
+    src: "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?q=80&w=1260&auto=format&fit=crop",
     label: "Oficina Especializada",
   },
   {
-    src: "https://images.pexels.com/photos/1038000/pexels-photo-1038000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750",
+    src: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?q=80&w=1260&auto=format&fit=crop",
     label: "Veículos Atendidos",
   },
   {
-    src: "https://images.pexels.com/photos/4489793/pexels-photo-4489793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750",
+    src: "https://images.unsplash.com/photo-1609630875171-b1321377ee65?q=80&w=1260&auto=format&fit=crop",
     label: "Equipe Especializada",
   },
 ];
