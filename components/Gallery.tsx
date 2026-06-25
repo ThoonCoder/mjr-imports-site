@@ -7,27 +7,33 @@ import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react";
 
 const images = [
   {
-    src: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=1260&auto=format&fit=crop",
+    // mechanic using diagnostic scanner on car
+    src: "https://images.unsplash.com/photo-1593820393523-aaed7a674f1d?q=80&w=1260&auto=format&fit=crop",
     label: "Diagnóstico Eletrônico",
   },
   {
-    src: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=1260&auto=format&fit=crop",
+    // mechanic working on car engine
+    src: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=1260&auto=format&fit=crop",
     label: "Revisão de Motor",
   },
   {
+    // mechanic changing tire / wheel work
     src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1260&auto=format&fit=crop",
     label: "Pneus e Suspensão",
   },
   {
+    // interior of professional auto workshop
     src: "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?q=80&w=1260&auto=format&fit=crop",
     label: "Oficina Especializada",
   },
   {
-    src: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?q=80&w=1260&auto=format&fit=crop",
+    // car being serviced / lifted on ramp
+    src: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=1260&auto=format&fit=crop",
     label: "Veículos Atendidos",
   },
   {
-    src: "https://images.unsplash.com/photo-1609630875171-b1321377ee65?q=80&w=1260&auto=format&fit=crop",
+    // group of auto mechanics working together
+    src: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1260&auto=format&fit=crop",
     label: "Equipe Especializada",
   },
 ];
