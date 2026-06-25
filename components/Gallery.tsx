@@ -7,8 +7,8 @@ import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react";
 
 const images = [
   {
-    // mechanic using diagnostic scanner on car
-    src: "https://images.unsplash.com/photo-1593820393523-aaed7a674f1d?q=80&w=1260&auto=format&fit=crop",
+    // mechanic with obd scanner diagnostic tool
+    src: "https://images.unsplash.com/photo-1606577924006-27d39b132ae2?q=80&w=1260&auto=format&fit=crop",
     label: "Diagnóstico Eletrônico",
   },
   {
